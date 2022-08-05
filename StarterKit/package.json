@@ -42,7 +42,7 @@
     "ckeditor5-svelte": "^0.0.10",
     "echarts": "^5.3.3",
     "echarts-for-svelte": "^0.1.11",
-    "firebase": "^9.9.1",
+    "firebase": "^9.9.2",
     "google-maps": "^4.3.3",
     "moment": "^2.29.1",
     "npm-check": "^6.0.1",

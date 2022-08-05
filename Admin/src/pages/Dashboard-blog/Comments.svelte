@@ -8,11 +8,11 @@
     DropdownMenu,
     DropdownToggle,
   } from "sveltestrap";
-  
-  import SimpleBar from "@woden/svelte-simplebar";
+
+  import SimpleBar from "@jbfulgencio/svelte-simplebar";
 </script>
 
-<Col xl={4} lg={6}>
+<Col xl="{4}" lg="{6}">
   <Card>
     <CardBody>
       <div class="d-flex flex-wrap">
@@ -21,13 +21,13 @@
         </div>
         <Dropdown class="ms-auto">
           <DropdownToggle class="text-muted font-size-16" color="" tag="a">
-            <i class="mdi mdi-dots-horizontal" />
+            <i class="mdi mdi-dots-horizontal"></i>
           </DropdownToggle>
           <DropdownMenu class="dropdown-menu-end">
             <Link class="dropdown-item" to="#">Action</Link>
             <Link class="dropdown-item" to="#">Another action</Link>
             <Link class="dropdown-item" to="#">Something else here</Link>
-            <div class="dropdown-divider" />
+            <div class="dropdown-divider"></div>
             <Link class="dropdown-item" to="#">Separated link</Link>
           </DropdownMenu>
         </Dropdown>
@@ -42,7 +42,7 @@
                     <div
                       class="avatar-title rounded-circle bg-light text-primary"
                     >
-                      <i class="bx bxs-user" />
+                      <i class="bx bxs-user"></i>
                     </div>
                   </div>
                 </div>
@@ -58,7 +58,7 @@
                   </p>
                   <div>
                     <Link to="#" class="text-success">
-                      <i class="mdi mdi-reply me-1" /> Reply
+                      <i class="mdi mdi-reply me-1"></i> Reply
                     </Link>
                   </div>
                 </div>
@@ -87,7 +87,7 @@
                   </p>
                   <div>
                     <Link to="#" class="text-success">
-                      <i class="mdi mdi-reply" /> Reply
+                      <i class="mdi mdi-reply"></i> Reply
                     </Link>
                   </div>
 
@@ -97,7 +97,7 @@
                         <div
                           class="avatar-title rounded-circle bg-light text-primary"
                         >
-                          <i class="bx bxs-user" />
+                          <i class="bx bxs-user"></i>
                         </div>
                       </div>
                     </div>
@@ -111,7 +111,7 @@
                       </p>
                       <div>
                         <Link to="#" class="text-success">
-                          <i class="mdi mdi-reply" /> Reply
+                          <i class="mdi mdi-reply"></i> Reply
                         </Link>
                       </div>
                     </div>
@@ -127,7 +127,7 @@
                     <div
                       class="avatar-title rounded-circle bg-light text-primary"
                     >
-                      <i class="bx bxs-user" />
+                      <i class="bx bxs-user"></i>
                     </div>
                   </div>
                 </div>
@@ -142,7 +142,7 @@
                   </p>
                   <div>
                     <Link to="#" class="text-success">
-                      <i class="mdi mdi-reply" /> Reply
+                      <i class="mdi mdi-reply"></i> Reply
                     </Link>
                   </div>
                 </div>

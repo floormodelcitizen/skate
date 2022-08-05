@@ -8,7 +8,7 @@
 </script>
 
 <div id="layout-wrapper">
-  <Header bind:sidebar={open} />
+  <Header bind:sidebar="{open}" />
   <Navbar />
   <div class="main-content" id="maincontent">
     <slot />
