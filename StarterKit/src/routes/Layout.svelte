@@ -11,6 +11,6 @@
   }
 </script>
 
-<svelte:component this={component}>
+<svelte:component this="{component}">
   <slot />
 </svelte:component>
