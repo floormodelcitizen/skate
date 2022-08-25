@@ -16,7 +16,7 @@
   } from "sveltestrap";
 
   import Breadcrumb from "../../../common/Breadcrumb.svelte";
-  import { Datatable, rows } from "svelte-simple-datatables";
+  import { Datatable } from "svelte-simple-datatables";
 
   const settings = {
     sortable: true,
@@ -25,6 +25,7 @@
   };
 
   let activeTab = "1";
+  let rows;
 </script>
 
 <div class="page-content">
@@ -39,16 +40,16 @@
             <Nav class="nav nav-tabs nav-tabs-custom" role="tablist">
               <NavItem>
                 <NavLink
-                  on:click={() => (activeTab = "1")}
-                  active={activeTab == "1"}
+                  on:click="{() => (activeTab = '1')}"
+                  active="{activeTab == '1'}"
                 >
                   All Orders
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink
-                  on:click={() => (activeTab = "2")}
-                  active={activeTab == "2"}
+                  on:click="{() => (activeTab = '2')}"
+                  active="{activeTab == '2'}"
                 >
                   Processing
                 </NavLink>
@@ -111,7 +112,7 @@
             </Form>
 
             <div class="mt-3">
-              <Datatable {settings} data={productData}>
+              <Datatable settings="{settings}" data="{productData}">
                 <thead>
                   <tr>
                     <th>Date</th>
@@ -131,7 +132,9 @@
                       <td>{row.value}</td>
                       <td>{row.valueInUsd}</td>
                       <td>
-                        <span class="badge bg-{row.badgecolor} font-size-10">{row.status}</span>
+                        <span class="badge bg-{row.badgecolor} font-size-10"
+                          >{row.status}</span
+                        >
                       </td>
                     </tr>
                   {/each}

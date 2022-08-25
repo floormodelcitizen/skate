@@ -1,24 +1,24 @@
 <script>
   import { data } from "./data.js";
-  import { Datatable, rows } from "svelte-simple-datatables";
+  import { Datatable } from "svelte-simple-datatables";
   import { Row, Col, Card, CardBody, Container } from "sveltestrap";
   import Breadcrumbs from "../../common/Breadcrumb.svelte";
 
   const settings = {
     labels: {
-        search: 'Search...',    // search input placeholer
-        filter: 'Filter',       // filter inputs placeholder
-        noRows: 'No entries to found',
-        info: 'Showing {start} to {end} of {rows} entries',
-        previous: 'Previous',
-        next: 'Next',       
+      search: "Search...", // search input placeholer
+      filter: "Filter", // filter inputs placeholder
+      noRows: "No entries to found",
+      info: "Showing {start} to {end} of {rows} entries",
+      previous: "Previous",
+      next: "Next",
     },
     sortable: true,
     pagination: true,
     rowPerPage: 10,
     columnFilter: true,
   };
-  
+  let rows;
 </script>
 
 <div class="page-content">
@@ -26,7 +26,7 @@
     <Breadcrumbs title="Tables" breadcrumbItem="Advanced Tables" />
 
     <Row>
-      <Col sm={12}>
+      <Col sm="{12}">
         <Card>
           <CardBody>
             <div class="h4 card-title">Default Datatable</div>
@@ -37,7 +37,7 @@
                 >svelte-simple-datatables
               </code>.
             </p>
-            <Datatable settings={settings} {data}>
+            <Datatable settings="{settings}" data="{data}">
               <thead>
                 <th>Name</th>
                 <th>Position</th>

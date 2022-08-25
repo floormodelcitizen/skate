@@ -133,7 +133,7 @@ import Pages500 from "../pages/Utility/pages-500.svelte";
 //Contacts
 import ContactsGrid from "../pages/Contacts/contacts-grid.svelte";
 import ContactsList from "../pages/Contacts/ContactList/contacts-list.svelte";
-import ContactsProfile from "../pages/Contacts/ContactsProfile/contacts-profile.svelte";
+// import ContactsProfile from "../pages/Contacts/ContactsProfile/contacts-profile.svelte";
 
 //Blog
 import BlogList from "../pages/Blog/BlogList/index.svelte";
@@ -184,7 +184,7 @@ const authProtectedRoutes = [
 
   //Invoices
   { path: "/invoices-list", component: InvoicesList },
-  { path: "/invoices-detail/:id", component: InvoiceDetail},
+  { path: "/invoices-detail/:id", component: InvoiceDetail },
   { path: "/invoices-detail", component: InvoiceDetail },
 
   // Tasks
@@ -200,7 +200,7 @@ const authProtectedRoutes = [
   // Contacts
   { path: "/contacts-grid", component: ContactsGrid },
   { path: "/contacts-list", component: ContactsList },
-  { path: "/contacts-profile", component: ContactsProfile },
+  // { path: "/contacts-profile", component: ContactsProfile },
 
   //Blog
   { path: "/blog-list", component: BlogList },

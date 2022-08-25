@@ -1,4 +1,3 @@
-@charset "UTF-8";
 td.svelte-ysjzxk {
   text-align: left;
 }
@@ -32,8 +31,7 @@ tr.svelte-19mqynw td.svelte-19mqynw:focus {
 }
 
 .fc-theme-bootstrap a:not([href]) {
-  color: inherit;
-  /* natural color for navlinks */
+  color: inherit; /* natural color for navlinks */
 }
 
 .modal-open {
@@ -44,6 +42,131 @@ tr.svelte-19mqynw td.svelte-19mqynw:focus {
 .overflow-noscroll {
   overflow: hidden;
   padding-right: 0px;
+}
+
+section.svelte-1nr9gki.svelte-1nr9gki {
+  display: flex;
+  flex-direction: row;
+}
+
+.css.svelte-1nr9gki.svelte-1nr9gki {
+  height: 32px;
+  margin-right: 16px;
+}
+
+.css.svelte-1nr9gki button.svelte-1nr9gki {
+  background: inherit;
+  height: 32px;
+  width: 32px;
+  color: #616161;
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+  transition: all, 0.2s;
+  line-height: 32px;
+  border: 1px solid #e0e0e0;
+  border-right: none;
+  outline: none;
+}
+
+.css.svelte-1nr9gki button.svelte-1nr9gki:first-child {
+  border-radius: 4px 0 0 4px;
+}
+
+.css.svelte-1nr9gki button.svelte-1nr9gki:last-child {
+  border-right: 1px solid #e0e0e0;
+  border-radius: 0 4px 4px 0;
+}
+
+.css.svelte-1nr9gki button.svelte-1nr9gki:not(.active):hover {
+  background: #eee;
+  cursor: pointer;
+}
+
+.css.svelte-1nr9gki button.text.svelte-1nr9gki {
+  width: auto;
+  min-width: 70px;
+  cursor: pointer;
+}
+
+.css.svelte-1nr9gki button.ellipse.svelte-1nr9gki:hover {
+  background: inherit;
+  cursor: default;
+}
+
+.css.svelte-1nr9gki button.active.svelte-1nr9gki {
+  background: #eee;
+  font-weight: bold;
+}
+
+.css.svelte-1nr9gki button.disabled.svelte-1nr9gki:hover {
+  background: inherit;
+  cursor: default;
+}
+
+.css.mobile.svelte-1nr9gki button.disabled.svelte-1nr9gki {
+  color: #bdbdbd;
+}
+
+.css.mobile.svelte-1nr9gki button.svelte-1nr9gki {
+  font-weight: bold;
+}
+
+.datatable.svelte-z0nhq.svelte-z0nhq {
+  position: relative;
+}
+
+.css.datatable.svelte-z0nhq.svelte-z0nhq {
+  background: #fff;
+}
+
+.datatable.scroll-y.svelte-z0nhq.svelte-z0nhq {
+  height: 160px;
+}
+
+.datatable.svelte-z0nhq .svelte-z0nhq {
+  box-sizing: border-box;
+}
+
+article.svelte-z0nhq.svelte-z0nhq {
+  position: relative;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 100%;
+  background: inherit;
+}
+
+.css.svelte-z0nhq article.svelte-z0nhq {
+  border-bottom: 1px solid #e0e0e0;
+  scrollbar-width: thin;
+}
+
+.css.svelte-z0nhq article.svelte-z0nhq::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.css.svelte-z0nhq article.svelte-z0nhq::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+
+.css.svelte-z0nhq article.svelte-z0nhq::-webkit-scrollbar-thumb {
+  background: #c2c2c2;
+}
+
+.css.svelte-z0nhq article.svelte-z0nhq::-webkit-scrollbar-thumb:hover {
+  background: #9e9e9e;
+}
+
+.css.svelte-z0nhq article.svelte-z0nhq::-webkit-scrollbar-track-piece:start {
+  top: 40px;
+}
+
+.css.svelte-z0nhq table.svelte-z0nhq {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  margin-bottom: 6px;
 }
 
 .selectContainer.svelte-17l1npl.svelte-17l1npl {
@@ -219,68 +342,34 @@ tr.svelte-19mqynw td.svelte-19mqynw:focus {
     transform: rotate(360deg);
   }
 }
-.datatable.svelte-udk322.svelte-udk322 {
-  position: relative;
-}
-
-.css.datatable.svelte-udk322.svelte-udk322 {
-  background: #fff;
-}
-
-.datatable.scroll-y.svelte-udk322.svelte-udk322 {
-  height: 160px;
-}
-
-.datatable.svelte-udk322 .svelte-udk322 {
-  box-sizing: border-box;
-}
-
-article.svelte-udk322.svelte-udk322 {
-  position: relative;
-  overflow-y: auto;
-  overflow-x: hidden;
-  width: 100%;
-  background: inherit;
-}
-
-.css.svelte-udk322 article.svelte-udk322 {
-  border-bottom: 1px solid #e0e0e0;
-  scrollbar-width: thin;
-}
-
-.css.svelte-udk322 article.svelte-udk322::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
-}
-
-.css.svelte-udk322 article.svelte-udk322::-webkit-scrollbar-track {
-  background: #f5f5f5;
-}
-
-.css.svelte-udk322 article.svelte-udk322::-webkit-scrollbar-thumb {
-  background: #c2c2c2;
-}
-
-.css.svelte-udk322 article.svelte-udk322::-webkit-scrollbar-thumb:hover {
-  background: #9e9e9e;
-}
-
-.css.svelte-udk322 article.svelte-udk322::-webkit-scrollbar-track-piece:start {
-  top: 40px;
-}
-
-.css.svelte-udk322 table.svelte-udk322 {
-  width: 100%;
-  border-collapse: collapse;
-  overflow: hidden;
-  margin-bottom: 6px;
-}
-
-.css.svelte-jt0h2f {
+.css.svelte-bzwyk1 {
   color: #616161;
   line-height: 32px;
   margin-left: 16px;
   font-size: 14px;
+}
+
+input.css.svelte-1mpljnc {
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  outline: none;
+  padding: 0 8px;
+  line-height: 24px;
+  margin: 0;
+  height: 24px;
+  background: transparent;
+  width: 176px;
+  transition: all, 0.1s;
+  margin-left: 16px;
+}
+
+input.css.svelte-1mpljnc:focus {
+  border: 2px solid #e0e0e0;
+}
+
+input.css.svelte-1mpljnc::placeholder {
+  color: #9e9e9e;
+  line-height: 24px;
 }
 
 .css.svelte-a9sdic.svelte-a9sdic {
@@ -313,96 +402,6 @@ th.filter.svelte-a9sdic input.svelte-a9sdic {
   font-size: 13px;
 }
 
-section.svelte-9qvh1i.svelte-9qvh1i {
-  display: flex;
-  flex-direction: row;
-}
-
-.css.svelte-9qvh1i.svelte-9qvh1i {
-  height: 32px;
-  margin-right: 16px;
-}
-
-.css.svelte-9qvh1i button.svelte-9qvh1i {
-  background: inherit;
-  height: 32px;
-  width: 32px;
-  color: #616161;
-  font-size: 13px;
-  margin: 0;
-  padding: 0;
-  transition: all, 0.2s;
-  line-height: 32px;
-  border: 1px solid #e0e0e0;
-  border-right: none;
-  outline: none;
-}
-
-.css.svelte-9qvh1i button.svelte-9qvh1i:first-child {
-  border-radius: 4px 0 0 4px;
-}
-
-.css.svelte-9qvh1i button.svelte-9qvh1i:last-child {
-  border-right: 1px solid #e0e0e0;
-  border-radius: 0 4px 4px 0;
-}
-
-.css.svelte-9qvh1i button.svelte-9qvh1i:not(.active):hover {
-  background: #eee;
-  cursor: pointer;
-}
-
-.css.svelte-9qvh1i button.text.svelte-9qvh1i {
-  width: auto;
-  min-width: 70px;
-  cursor: pointer;
-}
-
-.css.svelte-9qvh1i button.ellipse.svelte-9qvh1i:hover {
-  background: inherit;
-  cursor: default;
-}
-
-.css.svelte-9qvh1i button.active.svelte-9qvh1i {
-  background: #eee;
-  font-weight: bold;
-}
-
-.css.svelte-9qvh1i button.disabled.svelte-9qvh1i:hover {
-  background: inherit;
-  cursor: default;
-}
-
-.css.mobile.svelte-9qvh1i button.disabled.svelte-9qvh1i {
-  color: #bdbdbd;
-}
-
-.css.mobile.svelte-9qvh1i button.svelte-9qvh1i {
-  font-weight: bold;
-}
-
-input.css.svelte-1kn6xvh {
-  border: 1px solid #e0e0e0;
-  border-radius: 4px;
-  outline: none;
-  padding: 0 8px;
-  line-height: 24px;
-  margin: 0;
-  height: 24px;
-  background: transparent;
-  width: 176px;
-  transition: all, 0.1s;
-}
-
-input.css.svelte-1kn6xvh:focus {
-  border: 2px solid #e0e0e0;
-}
-
-input.css.svelte-1kn6xvh::placeholder {
-  color: #9e9e9e;
-  line-height: 24px;
-}
-
 .rangeSlider {
   --slider:var(--range-slider, #d7dada);
   --handle-inactive:var(--range-handle-inactive, #99a2a2);
@@ -422,9 +421,10 @@ input.css.svelte-1kn6xvh::placeholder {
   height: 0.5em;
   margin: 1em;
   transition: opacity 0.2s ease;
+  user-select: none;
 }
 
-.rangeSlider, .rangeSlider * {
+.rangeSlider * {
   user-select: none;
 }
 
@@ -627,7 +627,7 @@ span.svelte-g1srw1 {
   padding: 1em;
   overflow-y: hidden;
   background: #fff;
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0.075), 0 1px 2px rgba(0, 0, 0, 0.075), 1px 2px 4px rgba(0, 0, 0, 0.075), 1px 3px 8px rgba(0, 0, 0, 0.075), 2px 4px 16px rgba(0, 0, 0, 0.075);
+  box-shadow: 0 0 1px hsla(0deg, 0%, 0%, 0.075), 0 1px 2px hsla(0deg, 0%, 0%, 0.075), 1px 2px 4px hsla(0deg, 0%, 0%, 0.075), 1px 3px 8px hsla(0deg, 0%, 0%, 0.075), 2px 4px 16px hsla(0deg, 0%, 0%, 0.075);
   pointer-events: all;
 }
 .swal2-popup.swal2-toast > * {
@@ -667,6 +667,7 @@ span.svelte-g1srw1 {
 .swal2-popup.swal2-toast .swal2-html-container {
   margin: 0.5em 1em;
   padding: 0;
+  overflow: initial;
   font-size: 1em;
   text-align: initial;
 }
@@ -898,7 +899,7 @@ span.svelte-g1srw1 {
   max-width: 100%;
   margin: 0;
   padding: 0.8em 1em 0;
-  color: #595959;
+  color: inherit;
   font-size: 1.875em;
   font-weight: 600;
   text-align: center;
@@ -999,7 +1000,7 @@ span.svelte-g1srw1 {
   margin: 1em 0 0;
   padding: 1em 1em 0;
   border-top: 1px solid #eee;
-  color: #545454;
+  color: inherit;
   font-size: 1em;
 }
 
@@ -1009,7 +1010,6 @@ span.svelte-g1srw1 {
   bottom: 0;
   left: 0;
   grid-column: auto !important;
-  height: 0.25em;
   overflow: hidden;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -1067,7 +1067,7 @@ span.svelte-g1srw1 {
   margin: 1em 1.6em 0.3em;
   padding: 0;
   overflow: auto;
-  color: #545454;
+  color: inherit;
   font-size: 1.125em;
   font-weight: normal;
   line-height: normal;
@@ -1082,7 +1082,7 @@ span.svelte-g1srw1 {
 .swal2-select,
 .swal2-radio,
 .swal2-checkbox {
-  margin: 1em 2em 0;
+  margin: 1em 2em 3px;
 }
 
 .swal2-input,
@@ -1093,7 +1093,7 @@ span.svelte-g1srw1 {
   transition: border-color 0.1s, box-shadow 0.1s;
   border: 1px solid #d9d9d9;
   border-radius: 0.1875em;
-  background: inherit;
+  background: transparent;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.06), 0 0 0 3px transparent;
   color: inherit;
   font-size: 1.125em;
@@ -1118,7 +1118,7 @@ span.svelte-g1srw1 {
 }
 
 .swal2-range {
-  margin: 1em 2em 0;
+  margin: 1em 2em 3px;
   background: #fff;
 }
 .swal2-range input {
@@ -1147,7 +1147,7 @@ span.svelte-g1srw1 {
   width: 75%;
   margin-right: auto;
   margin-left: auto;
-  background: inherit;
+  background: transparent;
   font-size: 1.125em;
 }
 
@@ -1160,7 +1160,7 @@ span.svelte-g1srw1 {
   min-width: 50%;
   max-width: 100%;
   padding: 0.375em 0.625em;
-  background: inherit;
+  background: transparent;
   color: inherit;
   font-size: 1.125em;
 }
@@ -1377,7 +1377,7 @@ span.svelte-g1srw1 {
   max-width: 100%;
   margin: 1.25em auto;
   padding: 0;
-  background: inherit;
+  background: transparent;
   font-weight: 600;
 }
 .swal2-progress-steps li {
@@ -1445,6 +1445,58 @@ span.svelte-g1srw1 {
 .swal2-rtl .swal2-timer-progress-bar {
   right: 0;
   left: auto;
+}
+
+.leave-russia-now-and-apply-your-skills-to-the-world {
+  display: flex;
+  position: fixed;
+  z-index: 1939;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 0 20px;
+  background: #20232a;
+  color: #fff;
+  text-align: center;
+}
+.leave-russia-now-and-apply-your-skills-to-the-world div {
+  max-width: 560px;
+  margin: 10px;
+  line-height: 146%;
+}
+.leave-russia-now-and-apply-your-skills-to-the-world iframe {
+  max-width: 100%;
+  max-height: 55.5555555556vmin;
+  margin: 16px auto;
+}
+.leave-russia-now-and-apply-your-skills-to-the-world strong {
+  border-bottom: 2px dashed white;
+}
+.leave-russia-now-and-apply-your-skills-to-the-world button {
+  display: flex;
+  position: fixed;
+  z-index: 1940;
+  top: 0;
+  right: 0;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+  margin-bottom: -10px;
+  border: none;
+  background: transparent;
+  color: #aaa;
+  font-size: 48px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.leave-russia-now-and-apply-your-skills-to-the-world button:hover {
+  color: #fff;
 }
 
 @keyframes swal2-toast-show {
@@ -1817,13 +1869,10 @@ body.swal2-toast-shown .swal2-container.swal2-bottom-end, body.swal2-toast-shown
   box-sizing: border-box !important;
   position: relative;
   display: block;
-  height: 100%;
-  /* Required for horizontal native scrollbar to not appear if parent is taller than natural height */
+  height: 100%; /* Required for horizontal native scrollbar to not appear if parent is taller than natural height */
   width: auto;
-  max-width: 100%;
-  /* Not required for horizontal scroll to trigger */
-  max-height: 100%;
-  /* Needed for vertical scroll to trigger */
+  max-width: 100%; /* Not required for horizontal scroll to trigger */
+  max-height: 100%; /* Needed for vertical scroll to trigger */
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
@@ -1981,44 +2030,6 @@ body.swal2-toast-shown .swal2-container.swal2-bottom-end, body.swal2-toast-shown
   -ms-overflow-style: none;
 }
 
-.listContainer.svelte-1uyqfml {
-  box-shadow: var(--listShadow, 0 2px 3px 0 rgba(44, 62, 80, 0.24));
-  border-radius: var(--listBorderRadius, 4px);
-  max-height: var(--listMaxHeight, 250px);
-  overflow-y: auto;
-  background: var(--listBackground, #fff);
-  border: var(--listBorder, none);
-  position: var(--listPosition, absolute);
-  z-index: var(--listZIndex, 2);
-  width: 100%;
-  left: var(--listLeft, 0);
-  right: var(--listRight, 0);
-}
-
-.virtualList.svelte-1uyqfml {
-  height: var(--virtualListHeight, 200px);
-}
-
-.listGroupTitle.svelte-1uyqfml {
-  color: var(--groupTitleColor, #8f8f8f);
-  cursor: default;
-  font-size: var(--groupTitleFontSize, 12px);
-  font-weight: var(--groupTitleFontWeight, 600);
-  height: var(--height, 42px);
-  line-height: var(--height, 42px);
-  padding: var(--groupTitlePadding, 0 20px);
-  text-overflow: ellipsis;
-  overflow-x: hidden;
-  white-space: nowrap;
-  text-transform: var(--groupTitleTextTransform, uppercase);
-}
-
-.empty.svelte-1uyqfml {
-  text-align: var(--listEmptyTextAlign, center);
-  padding: var(--listEmptyPadding, 20px 0);
-  color: var(--listEmptyColor, #78848f);
-}
-
 .item.svelte-3e0qet {
   cursor: default;
   height: var(--height, 42px);
@@ -2064,6 +2075,59 @@ body.swal2-toast-shown .swal2-container.swal2-bottom-end, body.swal2-toast-shown
   text-overflow: ellipsis;
   overflow-x: hidden;
   white-space: nowrap;
+}
+
+svelte-virtual-list-viewport.svelte-g2cagw {
+  position: relative;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  display: block;
+}
+
+svelte-virtual-list-contents.svelte-g2cagw, svelte-virtual-list-row.svelte-g2cagw {
+  display: block;
+}
+
+svelte-virtual-list-row.svelte-g2cagw {
+  overflow: hidden;
+}
+
+.listContainer.svelte-1uyqfml {
+  box-shadow: var(--listShadow, 0 2px 3px 0 rgba(44, 62, 80, 0.24));
+  border-radius: var(--listBorderRadius, 4px);
+  max-height: var(--listMaxHeight, 250px);
+  overflow-y: auto;
+  background: var(--listBackground, #fff);
+  border: var(--listBorder, none);
+  position: var(--listPosition, absolute);
+  z-index: var(--listZIndex, 2);
+  width: 100%;
+  left: var(--listLeft, 0);
+  right: var(--listRight, 0);
+}
+
+.virtualList.svelte-1uyqfml {
+  height: var(--virtualListHeight, 200px);
+}
+
+.listGroupTitle.svelte-1uyqfml {
+  color: var(--groupTitleColor, #8f8f8f);
+  cursor: default;
+  font-size: var(--groupTitleFontSize, 12px);
+  font-weight: var(--groupTitleFontWeight, 600);
+  height: var(--height, 42px);
+  line-height: var(--height, 42px);
+  padding: var(--groupTitlePadding, 0 20px);
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+  white-space: nowrap;
+  text-transform: var(--groupTitleTextTransform, uppercase);
+}
+
+.empty.svelte-1uyqfml {
+  text-align: var(--listEmptyTextAlign, center);
+  padding: var(--listEmptyPadding, 20px 0);
+  color: var(--listEmptyColor, #78848f);
 }
 
 .multiSelectItem.svelte-liu9pa.svelte-liu9pa {
@@ -2120,19 +2184,112 @@ body.swal2-toast-shown .swal2-container.swal2-bottom-end, body.swal2-toast-shown
   vertical-align: top;
 }
 
-svelte-virtual-list-viewport.svelte-g2cagw {
-  position: relative;
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
-  display: block;
+svg.svelte-7nhlqv {
+  width: var(--width);
+  height: var(--height);
+  margin-right: 2px;
 }
 
-svelte-virtual-list-contents.svelte-g2cagw, svelte-virtual-list-row.svelte-g2cagw {
-  display: block;
+.rangeSlider {
+  --pip:var(--range-pip, lightslategray);
+  --pip-text:var(--range-pip-text, var(--pip));
+  --pip-active:var(--range-pip-active, darkslategrey);
+  --pip-active-text:var(--range-pip-active-text, var(--pip-active));
+  --pip-in-range:var(--range-pip-in-range, var(--pip-active));
+  --pip-in-range-text:var(--range-pip-in-range-text, var(--pip-active-text));
 }
 
-svelte-virtual-list-row.svelte-g2cagw {
-  overflow: hidden;
+.rangePips {
+  position: absolute;
+  height: 1em;
+  left: 0;
+  right: 0;
+  bottom: -1em;
+}
+
+.rangePips.vertical {
+  height: auto;
+  width: 1em;
+  left: 100%;
+  right: auto;
+  top: 0;
+  bottom: 0;
+}
+
+.rangePips .pip {
+  height: 0.4em;
+  position: absolute;
+  top: 0.25em;
+  width: 1px;
+  white-space: nowrap;
+}
+
+.rangePips.vertical .pip {
+  height: 1px;
+  width: 0.4em;
+  top: 0;
+  left: 0.25em;
+}
+
+.rangePips .pip.selected {
+  height: 0.75em;
+}
+
+.rangePips.vertical .pip.selected {
+  height: 1px;
+  width: 0.75em;
+}
+
+.rangePips .pipVal {
+  position: absolute;
+  top: 0.4em;
+  transform: translate(-50%, 25%);
+}
+
+.rangePips.vertical .pipVal {
+  position: absolute;
+  top: 0;
+  left: 0.4em;
+  transform: translate(25%, -50%);
+}
+
+.rangePips .pip.selected .pipVal {
+  font-weight: bold;
+  top: 0.75em;
+}
+
+.rangePips.vertical .pip.selected .pipVal {
+  top: 0;
+  left: 0.75em;
+}
+
+.rangePips .pip {
+  transition: all 0.15s ease;
+}
+
+.rangePips .pipVal {
+  transition: all 0.15s ease;
+}
+
+.rangePips .pip {
+  color: lightslategray;
+  color: var(--pip-text);
+  background-color: lightslategray;
+  background-color: var(--pip);
+}
+
+.rangePips .pip.selected {
+  color: darkslategrey;
+  color: var(--pip-active-text);
+  background-color: darkslategrey;
+  background-color: var(--pip-active);
+}
+
+.rangePips .pip.in-range {
+  color: darkslategrey;
+  color: var(--pip-in-range-text);
+  background-color: darkslategrey;
+  background-color: var(--pip-in-range);
 }
 
 :root {
@@ -2142,9 +2299,7 @@ svelte-virtual-list-row.svelte-g2cagw {
 /* help things clear margins of inner content */
 .fc-daygrid-day-frame,
 .fc-daygrid-day-events,
-.fc-daygrid-event-harness {
-  /* for event top/bottom margins */
-}
+.fc-daygrid-event-harness { /* for event top/bottom margins */ }
 
 .fc-daygrid-day-frame:before, .fc-daygrid-day-events:before, .fc-daygrid-event-harness:before {
   content: "";
@@ -2158,11 +2313,9 @@ svelte-virtual-list-row.svelte-g2cagw {
   display: table;
 }
 
-.fc .fc-daygrid-body {
-  /* a <div> that wraps the table */
+.fc .fc-daygrid-body { /* a <div> that wraps the table */
   position: relative;
-  z-index: 1;
-  /* container inner z-index's because <tr>s can't do it */
+  z-index: 1; /* container inner z-index's because <tr>s can't do it */
 }
 
 .fc .fc-daygrid-day.fc-day-today {
@@ -2172,8 +2325,7 @@ svelte-virtual-list-row.svelte-g2cagw {
 
 .fc .fc-daygrid-day-frame {
   position: relative;
-  min-height: 100%;
-  /* seems to work better than `height` because sets height after rows/cells naturally do it */
+  min-height: 100%; /* seems to work better than `height` because sets height after rows/cells naturally do it */
 }
 
 .fc {
@@ -2204,8 +2356,7 @@ svelte-virtual-list-row.svelte-g2cagw {
 }
 
 .fc .fc-daygrid-day-events {
-  margin-top: 1px;
-  /* needs to be margin, not padding, so that available cell height can be computed */
+  margin-top: 1px; /* needs to be margin, not padding, so that available cell height can be computed */
 }
 
 .fc {
@@ -2219,15 +2370,11 @@ svelte-virtual-list-row.svelte-g2cagw {
 }
 
 .fc .fc-daygrid-body-unbalanced .fc-daygrid-day-events {
-  position: relative;
-  /* for containing abs positioned event harnesses */
-  min-height: 2em;
-  /* in addition to being a min-height during natural height, equalizes the heights a little bit */
+  position: relative; /* for containing abs positioned event harnesses */
+  min-height: 2em; /* in addition to being a min-height during natural height, equalizes the heights a little bit */
 }
 
-.fc .fc-daygrid-body-natural {
-  /* can coexist with -unbalanced */
-}
+.fc .fc-daygrid-body-natural { /* can coexist with -unbalanced */ }
 
 .fc .fc-daygrid-body-natural .fc-daygrid-day-events {
   margin-bottom: 1em;
@@ -2243,12 +2390,9 @@ svelte-virtual-list-row.svelte-g2cagw {
 
 .fc .fc-daygrid-event-harness-abs {
   position: absolute;
-  top: 0;
-  /* fallback coords for when cannot yet be computed */
-  left: 0;
-  /* */
-  right: 0;
-  /* */
+  top: 0; /* fallback coords for when cannot yet be computed */
+  left: 0; /* */
+  right: 0; /* */
 }
 
 .fc .fc-daygrid-bg-harness {
@@ -2354,17 +2498,13 @@ svelte-virtual-list-row.svelte-g2cagw {
 }
 
 .fc-liquid-hack .fc-daygrid-day-frame {
-  position: static;
-  /* will cause inner absolute stuff to expand to <td> */
+  position: static; /* will cause inner absolute stuff to expand to <td> */
 }
 
-.fc-daygrid-event {
-  /* make root-level, because will be dragged-and-dropped outside of a component root */
-  position: relative;
-  /* for z-indexes assigned later */
+.fc-daygrid-event { /* make root-level, because will be dragged-and-dropped outside of a component root */
+  position: relative; /* for z-indexes assigned later */
   white-space: nowrap;
-  border-radius: 3px;
-  /* dot event needs this to when selected */
+  border-radius: 3px; /* dot event needs this to when selected */
   font-size: 0.85em;
   font-size: var(--fc-small-font-size, 0.85em);
 }
@@ -2389,8 +2529,7 @@ svelte-virtual-list-row.svelte-g2cagw {
 .fc-daygrid-dot-event .fc-event-title {
   flex-grow: 1;
   flex-shrink: 1;
-  min-width: 0;
-  /* important for allowing to shrink all the way */
+  min-width: 0; /* important for allowing to shrink all the way */
   overflow: hidden;
   font-weight: bold;
 }
@@ -2406,8 +2545,7 @@ svelte-virtual-list-row.svelte-g2cagw {
   bottom: -10px;
 }
 
-.fc-daygrid-event-dot {
-  /* the actual dot */
+.fc-daygrid-event-dot { /* the actual dot */
   margin: 0 4px;
   box-sizing: content-box;
   width: 0;
@@ -2427,123 +2565,28 @@ svelte-virtual-list-row.svelte-g2cagw {
   margin-left: 3px;
 }
 
-.rangeSlider {
-  --pip:var(--range-pip, lightslategray);
-  --pip-text:var(--range-pip-text, var(--pip));
-  --pip-active:var(--range-pip-active, darkslategrey);
-  --pip-active-text:var(--range-pip-active-text, var(--pip-active));
-  --pip-in-range:var(--range-pip-in-range, var(--pip-active));
-  --pip-in-range-text:var(--range-pip-in-range-text, var(--pip-active-text));
-}
-
-.rangePips {
-  position: absolute;
-  height: 1em;
-  left: 0;
-  right: 0;
-  bottom: -1em;
-}
-
-.rangePips.vertical {
-  height: auto;
-  width: 1em;
-  left: 100%;
-  right: auto;
-  top: 0;
-  bottom: 0;
-}
-
-.rangePips .pip {
-  height: 0.4em;
-  position: absolute;
-  top: 0.25em;
-  width: 1px;
-  white-space: nowrap;
-}
-
-.rangePips.vertical .pip {
-  height: 1px;
-  width: 0.4em;
-  top: 0;
-  left: 0.25em;
-}
-
-.rangePips .pip.selected {
-  height: 0.75em;
-}
-
-.rangePips.vertical .pip.selected {
-  height: 1px;
-  width: 0.75em;
-}
-
-.rangePips .pipVal {
-  position: absolute;
-  top: 0.4em;
-  transform: translate(-50%, 25%);
-}
-
-.rangePips.vertical .pipVal {
-  position: absolute;
-  top: 0;
-  left: 0.4em;
-  transform: translate(25%, -50%);
-}
-
-.rangePips .pip.selected .pipVal {
-  font-weight: bold;
-  top: 0.75em;
-}
-
-.rangePips.vertical .pip.selected .pipVal {
-  top: 0;
-  left: 0.75em;
-}
-
-.rangePips .pip, .rangePips .pipVal {
-  transition: all 0.15s ease;
-}
-
-.rangePips .pip {
-  color: lightslategray;
-  color: var(--pip-text);
-  background-color: lightslategray;
-  background-color: var(--pip);
-}
-
-.rangePips .pip.selected {
-  color: darkslategrey;
-  color: var(--pip-active-text);
-  background-color: darkslategrey;
-  background-color: var(--pip-active);
-}
-
-.rangePips .pip.in-range {
-  color: darkslategrey;
-  color: var(--pip-in-range-text);
-  background-color: darkslategrey;
-  background-color: var(--pip-in-range);
-}
-
-svg.svelte-7nhlqv {
-  width: var(--width);
-  height: var(--height);
-  margin-right: 2px;
-}
-
-section.svelte-195bjyp {
+section.svelte-1thvc3t {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   height: 40px;
   padding-top: 8px;
+  align-items: center;
 }
 
-.css.svelte-195bjyp {
+.css.svelte-1thvc3t {
   background: #fff;
 }
 
-section.svelte-1sonwgi.svelte-1sonwgi {
+section.svelte-16n96wa {
+  height: 32px;
+}
+
+.css.svelte-16n96wa {
+  margin-left: 16px;
+}
+
+section.svelte-1x5myu9.svelte-1x5myu9 {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -2552,23 +2595,23 @@ section.svelte-1sonwgi.svelte-1sonwgi {
   background: inherit;
 }
 
-.css.svelte-1sonwgi th.svelte-1sonwgi {
+.css.svelte-1x5myu9 th.svelte-1x5myu9 {
   padding: 8px 0px 8px 16px;
   text-align: center;
   border-bottom: 1px solid #eee;
   background: #fff;
 }
 
-.css.svelte-1sonwgi th.sortable.svelte-1sonwgi {
+.css.svelte-1x5myu9 th.sortable.svelte-1x5myu9 {
   cursor: pointer;
 }
 
-.css.svelte-1sonwgi th.sortable span.svelte-1sonwgi {
+.css.svelte-1x5myu9 th.sortable span.svelte-1x5myu9 {
   padding-right: 16px;
   position: relative;
 }
 
-.css.svelte-1sonwgi th.sortable span.svelte-1sonwgi:before, .css.svelte-1sonwgi th.sortable span.svelte-1sonwgi:after {
+.css.svelte-1x5myu9 th.sortable span.svelte-1x5myu9:before, .css.svelte-1x5myu9 th.sortable span.svelte-1x5myu9:after {
   border: 4px solid transparent;
   content: "";
   display: block;
@@ -2579,38 +2622,38 @@ section.svelte-1sonwgi.svelte-1sonwgi {
   width: 0;
 }
 
-.css.svelte-1sonwgi th.sortable span.svelte-1sonwgi:before {
+.css.svelte-1x5myu9 th.sortable span.svelte-1x5myu9:before {
   border-bottom-color: #e0e0e0;
   margin-top: -9px;
 }
 
-.css.svelte-1sonwgi th.sortable span.svelte-1sonwgi:after {
+.css.svelte-1x5myu9 th.sortable span.svelte-1x5myu9:after {
   border-top-color: #e0e0e0;
   margin-top: 1px;
 }
 
-.css.svelte-1sonwgi th.sortable.asc span.svelte-1sonwgi:before {
+.css.svelte-1x5myu9 th.sortable.asc span.svelte-1x5myu9:before {
   border-bottom-color: #9e9e9e;
 }
 
-.css.svelte-1sonwgi th.sortable.desc span.svelte-1sonwgi:after {
+.css.svelte-1x5myu9 th.sortable.desc span.svelte-1x5myu9:after {
   border-top-color: #9e9e9e;
 }
 
-.css.svelte-1sonwgi th.filter.svelte-1sonwgi {
+.css.svelte-1x5myu9 th.filter.svelte-1x5myu9 {
   padding: 0;
   margin: 0;
   background-image: none;
   border: 1px solid #fafafa;
 }
 
-th.filter.svelte-1sonwgi input.svelte-1sonwgi {
+th.filter.svelte-1x5myu9 input.svelte-1x5myu9 {
   margin: 0;
   padding: 0;
   width: 100%;
 }
 
-.css.svelte-1sonwgi th.filter input.svelte-1sonwgi {
+.css.svelte-1x5myu9 th.filter input.svelte-1x5myu9 {
   background: #fff;
   height: 24px;
   border: none;
@@ -2621,18 +2664,10 @@ th.filter.svelte-1sonwgi input.svelte-1sonwgi {
   font-size: 14px;
 }
 
-.css.svelte-1sonwgi th.filter input.svelte-1sonwgi::placeholder {
+.css.svelte-1x5myu9 th.filter input.svelte-1x5myu9::placeholder {
   color: #bdbdbd;
   font-style: italic;
   font-size: 13px;
-}
-
-section.svelte-11nchoy {
-  height: 32px;
-}
-
-.css.svelte-11nchoy {
-  margin-left: 16px;
 }
 
 :root {
@@ -2642,20 +2677,20 @@ section.svelte-11nchoy {
   --sc-color-hex-dark:#1e1e1e;
 }
 
-.sc-carousel__carousel-container.svelte-h7bw08 {
+.sc-carousel__carousel-container.svelte-uwo0yk {
   display: flex;
   width: 100%;
   flex-direction: column;
   align-items: center;
 }
 
-.sc-carousel__content-container.svelte-h7bw08 {
+.sc-carousel__content-container.svelte-uwo0yk {
   position: relative;
   display: flex;
   width: 100%;
 }
 
-.sc-carousel__pages-window.svelte-h7bw08 {
+.sc-carousel__pages-window.svelte-uwo0yk {
   flex: 1;
   display: flex;
   overflow: hidden;
@@ -2663,13 +2698,13 @@ section.svelte-11nchoy {
   position: relative;
 }
 
-.sc-carousel__pages-container.svelte-h7bw08 {
+.sc-carousel__pages-container.svelte-uwo0yk {
   width: 100%;
   display: flex;
   transition-property: transform;
 }
 
-.sc-carousel__arrow-container.svelte-h7bw08 {
+.sc-carousel__arrow-container.svelte-uwo0yk {
   padding: 5px;
   box-sizing: border-box;
   display: flex;
@@ -2677,12 +2712,21 @@ section.svelte-11nchoy {
   justify-content: center;
 }
 
-.sc-carousel-progress__container.svelte-h7bw08 {
+.sc-carousel-progress__container.svelte-uwo0yk {
   width: 100%;
   height: 5px;
   background-color: var(--sc-color-rgb-light-50p);
   position: absolute;
   bottom: 0;
+}
+
+.sc-carousel-button {
+  all: unset;
+  cursor: pointer;
+}
+
+.sc-carousel-button:focus {
+  outline: 5px auto;
 }
 
 :root {
@@ -2749,12 +2793,13 @@ section.svelte-11nchoy {
 }
 
 /* classes attached to <body> */
+/* TODO: make fc-event selector work when calender in shadow DOM */
 .fc-not-allowed,
-.fc-not-allowed .fc-event {
-  /* override events' custom cursors */
+.fc-not-allowed .fc-event { /* override events' custom cursors */
   cursor: not-allowed;
 }
 
+/* TODO: not attached to body. attached to specific els. move */
 .fc-unselectable {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -2781,8 +2826,7 @@ section.svelte-11nchoy {
 .fc table {
   border-collapse: collapse;
   border-spacing: 0;
-  font-size: 1em;
-  /* normalize cross-browser */
+  font-size: 1em; /* normalize cross-browser */
 }
 
 .fc th {
@@ -2857,31 +2901,31 @@ section.svelte-11nchoy {
 }
 
 .fc-icon-chevron-left:before {
-  content: "";
+  content: "\e900";
 }
 
 .fc-icon-chevron-right:before {
-  content: "";
+  content: "\e901";
 }
 
 .fc-icon-chevrons-left:before {
-  content: "";
+  content: "\e902";
 }
 
 .fc-icon-chevrons-right:before {
-  content: "";
+  content: "\e903";
 }
 
 .fc-icon-minus-square:before {
-  content: "";
+  content: "\e904";
 }
 
 .fc-icon-plus-square:before {
-  content: "";
+  content: "\e905";
 }
 
 .fc-icon-x:before {
-  content: "";
+  content: "\e906";
 }
 
 /*
@@ -2978,15 +3022,13 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
   border-color: var(--fc-button-hover-border-color, #1a252f);
 }
 
-.fc .fc-button-primary:disabled {
-  /* not DRY */
+.fc .fc-button-primary:disabled { /* not DRY */
   color: #fff;
   color: var(--fc-button-text-color, #fff);
   background-color: #2C3E50;
   background-color: var(--fc-button-bg-color, #2C3E50);
   border-color: #2C3E50;
-  border-color: var(--fc-button-border-color, #2C3E50);
-  /* overrides :hover */
+  border-color: var(--fc-button-border-color, #2C3E50); /* overrides :hover */
 }
 
 .fc .fc-button-primary:focus {
@@ -3014,8 +3056,7 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
 
 .fc .fc-button .fc-icon {
   vertical-align: middle;
-  font-size: 1.5em;
-  /* bump up the size (but don't make it bigger than line-height of button, which is 1.5em also) */
+  font-size: 1.5em; /* bump up the size (but don't make it bigger than line-height of button, which is 1.5em also) */
 }
 
 .fc .fc-button-group {
@@ -3081,24 +3122,20 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
 }
 
 .fc-direction-ltr .fc-toolbar > * > :not(:first-child) {
-  margin-left: 0.75em;
-  /* space between */
+  margin-left: 0.75em; /* space between */
 }
 
 .fc-direction-rtl .fc-toolbar > * > :not(:first-child) {
-  margin-right: 0.75em;
-  /* space between */
+  margin-right: 0.75em; /* space between */
 }
 
-.fc-direction-rtl .fc-toolbar-ltr {
-  /* when the toolbar-chunk positioning system is explicitly left-to-right */
+.fc-direction-rtl .fc-toolbar-ltr { /* when the toolbar-chunk positioning system is explicitly left-to-right */
   flex-direction: row-reverse;
 }
 
 .fc .fc-scroller {
   -webkit-overflow-scrolling: touch;
-  position: relative;
-  /* for abs-positioned elements within */
+  position: relative; /* for abs-positioned elements within */
 }
 
 .fc .fc-scroller-liquid {
@@ -3125,27 +3162,22 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
   height: 100%;
 }
 
-.fc-direction-rtl .fc-scroller-harness > .fc-scroller {
-  /* undo above hack */
+.fc-direction-rtl .fc-scroller-harness > .fc-scroller { /* undo above hack */
   direction: rtl;
 }
 
 .fc-theme-standard .fc-scrollgrid {
   border: 1px solid #ddd;
-  border: 1px solid var(--fc-border-color, #ddd);
-  /* bootstrap does this. match */
+  border: 1px solid var(--fc-border-color, #ddd); /* bootstrap does this. match */
 }
 
 .fc .fc-scrollgrid,
-.fc .fc-scrollgrid table {
-  /* all tables (self included) */
-  width: 100%;
-  /* because tables don't normally do this */
+.fc .fc-scrollgrid table { /* all tables (self included) */
+  width: 100%; /* because tables don't normally do this */
   table-layout: fixed;
 }
 
-.fc .fc-scrollgrid table {
-  /* inner tables */
+.fc .fc-scrollgrid table { /* inner tables */
   border-top-style: hidden;
   border-left-style: hidden;
   border-right-style: hidden;
@@ -3161,14 +3193,12 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
   height: 100%;
 }
 
-.fc .fc-scrollgrid-section {
-  /* a <tr> */
+.fc .fc-scrollgrid-section { /* a <tr> */
   height: 1px;
 }
 
 .fc .fc-scrollgrid-section > td {
-  height: 1px;
-  /* needs a height so inner div within grow. better than 0, for firefox */
+  height: 1px; /* needs a height so inner div within grow. better than 0, for firefox */
 }
 
 .fc .fc-scrollgrid-section table {
@@ -3178,8 +3208,7 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
 }
 
 .fc .fc-scrollgrid-section-liquid > td {
-  height: 100%;
-  /* better than `auto`, for firefox */
+  height: 100%; /* better than `auto`, for firefox */
 }
 
 .fc .fc-scrollgrid-section > * {
@@ -3194,8 +3223,7 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
 
 .fc .fc-scrollgrid-section-body table,
 .fc .fc-scrollgrid-section-footer table {
-  border-bottom-style: hidden;
-  /* head keeps its bottom border tho */
+  border-bottom-style: hidden; /* head keeps its bottom border tho */
 }
 
 .fc {
@@ -3206,37 +3234,30 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
   background: #fff;
   background: var(--fc-page-bg-color, #fff);
   position: sticky;
-  z-index: 3;
-  /* TODO: var */
+  z-index: 3; /* TODO: var */
   /* TODO: box-shadow when sticking */
 }
 
 .fc .fc-scrollgrid-section-header.fc-scrollgrid-section-sticky > * {
-  top: 0;
-  /* because border-sharing causes a gap at the top */
+  top: 0; /* because border-sharing causes a gap at the top */
   /* TODO: give safari -1. has bug */
 }
 
 .fc .fc-scrollgrid-section-footer.fc-scrollgrid-section-sticky > * {
-  bottom: 0;
-  /* known bug: bottom-stickiness doesn't work in safari */
+  bottom: 0; /* known bug: bottom-stickiness doesn't work in safari */
 }
 
-.fc .fc-scrollgrid-sticky-shim {
-  /* for horizontal scrollbar */
-  height: 1px;
-  /* needs height to create scrollbars */
+.fc .fc-scrollgrid-sticky-shim { /* for horizontal scrollbar */
+  height: 1px; /* needs height to create scrollbars */
   margin-bottom: -1px;
 }
 
-.fc-sticky {
-  /* no .fc wrap because used as child of body */
+.fc-sticky { /* no .fc wrap because used as child of body */
   position: sticky;
 }
 
 .fc .fc-view-harness {
-  flex-grow: 1;
-  /* because this harness is WITHIN the .fc's flexbox */
+  flex-grow: 1; /* because this harness is WITHIN the .fc's flexbox */
   position: relative;
 }
 
@@ -3253,8 +3274,7 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
 }
 
 .fc .fc-col-header-cell-cushion {
-  display: inline-block;
-  /* x-browser for when sticky (when multi-tier header) */
+  display: inline-block; /* x-browser for when sticky (when multi-tier header) */
   padding: 2px 4px;
 }
 
@@ -3275,8 +3295,8 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
 }
 
 .fc .fc-bg-event {
-  background: #8fdf82;
-  background: var(--fc-bg-event-color, #8fdf82);
+  background: rgb(143, 223, 130);
+  background: var(--fc-bg-event-color, rgb(143, 223, 130));
   opacity: 0.3;
   opacity: var(--fc-bg-event-opacity, 0.3);
 }
@@ -3321,13 +3341,11 @@ a.fc-event:hover {
 
 /* dragging */
 /* ---------------------------------------------------------------------------------------------------- */
-.fc-event-dragging:not(.fc-event-selected) {
-  /* MOUSE */
+.fc-event-dragging:not(.fc-event-selected) { /* MOUSE */
   opacity: 0.75;
 }
 
-.fc-event-dragging.fc-event-selected {
-  /* TOUCH */
+.fc-event-dragging.fc-event-selected { /* TOUCH */
   box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
 }
 
@@ -3341,9 +3359,7 @@ a.fc-event:hover {
 }
 
 .fc-event:hover,
-.fc-event-selected {
-  /* TOUCH */
-}
+.fc-event-selected { /* TOUCH */ }
 
 .fc-event:hover .fc-event-resizer, .fc-event-selected .fc-event-resizer {
   display: block;
@@ -3374,12 +3390,15 @@ a.fc-event:hover {
 }
 
 /* selecting (always TOUCH) */
+/* OR, focused by tab-index */
+/* (TODO: maybe not the best focus-styling for .fc-daygrid-dot-event) */
 /* ---------------------------------------------------------------------------------------------------- */
-.fc-event-selected {
+.fc-event-selected,
+.fc-event:focus {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-.fc-event-selected:before {
+.fc-event-selected:before, .fc-event:focus:before {
   content: "";
   position: absolute;
   z-index: 3;
@@ -3389,11 +3408,12 @@ a.fc-event:hover {
   bottom: 0;
 }
 
-.fc-event-selected {
+.fc-event-selected,
+.fc-event:focus {
   /* dimmer effect */
 }
 
-.fc-event-selected:after {
+.fc-event-selected:after, .fc-event:focus:after {
   content: "";
   background: rgba(0, 0, 0, 0.25);
   background: var(--fc-event-selected-overlay-color, rgba(0, 0, 0, 0.25));
@@ -3411,8 +3431,7 @@ a.fc-event:hover {
 /*
 A HORIZONTAL event
 */
-.fc-h-event {
-  /* allowed to be top-level */
+.fc-h-event { /* allowed to be top-level */
   display: block;
   border: 1px solid #3788d8;
   border: 1px solid var(--fc-event-border-color, #3788d8);
@@ -3426,35 +3445,26 @@ A HORIZONTAL event
 }
 
 .fc-h-event .fc-event-main-frame {
-  display: flex;
-  /* for make fc-event-title-container expand */
+  display: flex; /* for make fc-event-title-container expand */
 }
 
 .fc-h-event .fc-event-time {
-  max-width: 100%;
-  /* clip overflow on this element */
+  max-width: 100%; /* clip overflow on this element */
   overflow: hidden;
 }
 
-.fc-h-event .fc-event-title-container {
-  /* serves as a container for the sticky cushion */
+.fc-h-event .fc-event-title-container { /* serves as a container for the sticky cushion */
   flex-grow: 1;
   flex-shrink: 1;
-  min-width: 0;
-  /* important for allowing to shrink all the way */
+  min-width: 0; /* important for allowing to shrink all the way */
 }
 
 .fc-h-event .fc-event-title {
-  display: inline-block;
-  /* need this to be sticky cross-browser */
-  vertical-align: top;
-  /* for not messing up line-height */
-  left: 0;
-  /* for sticky */
-  right: 0;
-  /* for sticky */
-  max-width: 100%;
-  /* clip overflow on this element */
+  display: inline-block; /* need this to be sticky cross-browser */
+  vertical-align: top; /* for not messing up line-height */
+  left: 0; /* for sticky */
+  right: 0; /* for sticky */
+  max-width: 100%; /* clip overflow on this element */
   overflow: hidden;
 }
 
@@ -3491,33 +3501,33 @@ A HORIZONTAL event
 .fc-direction-rtl .fc-h-event:not(.fc-event-selected) .fc-event-resizer-end {
   cursor: w-resize;
   left: -4px;
-  left: calc(var(--fc-event-resizer-thickness, 8px) / -2);
+  left: calc(-0.5 * var(--fc-event-resizer-thickness, 8px));
 }
 
 .fc-direction-ltr .fc-h-event:not(.fc-event-selected) .fc-event-resizer-end,
 .fc-direction-rtl .fc-h-event:not(.fc-event-selected) .fc-event-resizer-start {
   cursor: e-resize;
   right: -4px;
-  right: calc(var(--fc-event-resizer-thickness, 8px) / -2);
+  right: calc(-0.5 * var(--fc-event-resizer-thickness, 8px));
 }
 
 /* resizers for TOUCH */
 .fc-h-event.fc-event-selected .fc-event-resizer {
   top: 50%;
   margin-top: -4px;
-  margin-top: calc(var(--fc-event-resizer-dot-total-width, 8px) / -2);
+  margin-top: calc(-0.5 * var(--fc-event-resizer-dot-total-width, 8px));
 }
 
 .fc-direction-ltr .fc-h-event.fc-event-selected .fc-event-resizer-start,
 .fc-direction-rtl .fc-h-event.fc-event-selected .fc-event-resizer-end {
   left: -4px;
-  left: calc(var(--fc-event-resizer-dot-total-width, 8px) / -2);
+  left: calc(-0.5 * var(--fc-event-resizer-dot-total-width, 8px));
 }
 
 .fc-direction-ltr .fc-h-event.fc-event-selected .fc-event-resizer-end,
 .fc-direction-rtl .fc-h-event.fc-event-selected .fc-event-resizer-start {
   right: -4px;
-  right: calc(var(--fc-event-resizer-dot-total-width, 8px) / -2);
+  right: calc(-0.5 * var(--fc-event-resizer-dot-total-width, 8px));
 }
 
 .fc .fc-popover {
@@ -3562,7 +3572,7 @@ A HORIZONTAL event
   --sc-dot-size-animation-time:250ms;
 }
 
-.sc-carousel-dot__dot.svelte-1uelw0b {
+.sc-carousel-dot__dot.svelte-yu7247 {
   background-color: var(--sc-color-rgb-light);
   border-radius: 50%;
   display: inline-block;
@@ -3574,11 +3584,11 @@ A HORIZONTAL event
   width: var(--sc-dot-size);
 }
 
-.sc-carousel-dot__dot.svelte-1uelw0b:hover {
+.sc-carousel-dot__dot.svelte-yu7247:hover {
   opacity: 0.9;
 }
 
-.sc-carousel-dot__dot_active.svelte-1uelw0b {
+.sc-carousel-dot__dot_active.svelte-yu7247 {
   opacity: 0.7;
   height: var(--sc-active-dot-size);
   width: var(--sc-active-dot-size);
