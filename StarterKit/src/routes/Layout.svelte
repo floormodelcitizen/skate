@@ -2,7 +2,7 @@
   import HorizontalLayout from "../routes/HorizontalLayout/Index.svelte";
   import VerticalLayout from "../routes/VerticalLayout/Index.svelte";
 
-  let layoutType = "horizontal";
+  let layoutType = "vertical";
 
   let component = layoutType == "vertical" ? VerticalLayout : HorizontalLayout;
 
@@ -11,6 +11,6 @@
   }
 </script>
 
-<svelte:component this={component}>
+<svelte:component this="{component}">
   <slot />
 </svelte:component>

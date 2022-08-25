@@ -16,24 +16,30 @@
     Input,
     InputGroup,
   } from "sveltestrap";
-  import SimpleBar from "@woden/svelte-simplebar";
+  import SimpleBar from "@jbfulgencio/svelte-simplebar";
 </script>
 
-<Col xl={4}>
+<Col xl="{4}">
   <Card>
     <CardBody class="border-bottom">
       <Row>
-        <Col md={4} class="col-9">
+        <Col md="{4}" class="col-9">
           <h5 class="font-size-15 mb-1">Steven Franklin</h5>
           <p class="text-muted mb-0">
-            <i class="mdi mdi-circle text-success align-middle me-1" /> Active now
+            <i class="mdi mdi-circle text-success align-middle me-1"></i> Active
+            now
           </p>
         </Col>
-        <Col md={8} class="col-3">
+        <Col md="{8}" class="col-3">
           <ul class="list-inline user-chat-nav text-end mb-0">
             <li class="list-inline-item d-none d-sm-inline-block">
               <Dropdown>
-                <DropdownToggle tag="a" class="btn nav-btn" color="" type="button"><i class="bx bx-search-alt-2" />
+                <DropdownToggle
+                  tag="a"
+                  class="btn nav-btn"
+                  color=""
+                  type="button"
+                  ><i class="bx bx-search-alt-2"></i>
                 </DropdownToggle>
                 <DropdownMenu class="py-0 dropdown-menu-md dropdown-menu-end">
                   <Form class="p-3">
@@ -45,10 +51,10 @@
                           placeholder="Search ..."
                           aria-label="Recipient's username"
                         />
-                     
-                          <Button color="primary" type="submit">
-                            <i class="mdi mdi-magnify" />
-                          </Button>
+
+                        <Button color="primary" type="submit">
+                          <i class="mdi mdi-magnify"></i>
+                        </Button>
                       </InputGroup>
                     </FormGroup>
                   </Form>
@@ -58,7 +64,7 @@
             <li class="list-inline-item  d-none d-sm-inline-block">
               <Dropdown>
                 <DropdownToggle class="btn nav-btn" tag="i" color="">
-                  <i class="bx bx-cog" />
+                  <i class="bx bx-cog"></i>
                 </DropdownToggle>
                 <DropdownMenu class="dropdown-menu-end">
                   <DropdownItem href="#">View Profile</DropdownItem>
@@ -72,7 +78,7 @@
             <li class="list-inline-item">
               <Dropdown>
                 <DropdownToggle class="btn nav-btn" tag="i" color="">
-                  <i class="bx bx-dots-horizontal-rounded" />
+                  <i class="bx bx-dots-horizontal-rounded"></i>
                 </DropdownToggle>
                 <DropdownMenu class="dropdown-menu-end">
                   <DropdownItem href="#">Action</DropdownItem>
@@ -105,7 +111,7 @@
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
-                    <i class="bx bx-dots-vertical-rounded" />
+                    <i class="bx bx-dots-vertical-rounded"></i>
                   </Link>
                   <div class="dropdown-menu">
                     <Link class="dropdown-item" href="/">Copy</Link>
@@ -118,7 +124,7 @@
                   <div class="conversation-name">Steven Franklin</div>
                   <p>Hello!</p>
                   <p class="chat-time mb-0">
-                    <i class="bx bx-time-five align-middle me-1" /> 10:00
+                    <i class="bx bx-time-five align-middle me-1"></i> 10:00
                   </p>
                 </div>
               </div>
@@ -135,7 +141,7 @@
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
-                    <i class="bx bx-dots-vertical-rounded" />
+                    <i class="bx bx-dots-vertical-rounded"></i>
                   </Link>
                   <div class="dropdown-menu">
                     <Link class="dropdown-item" href="/">Copy</Link>
@@ -149,7 +155,7 @@
                   <p>Hi, How are you? What about our next meeting?</p>
 
                   <p class="chat-time mb-0">
-                    <i class="bx bx-time-five align-middle me-1" /> 10:02
+                    <i class="bx bx-time-five align-middle me-1"></i> 10:02
                   </p>
                 </div>
               </div>
@@ -166,7 +172,7 @@
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
-                    <i class="bx bx-dots-vertical-rounded" />
+                    <i class="bx bx-dots-vertical-rounded"></i>
                   </Link>
                   <div class="dropdown-menu">
                     <Link class="dropdown-item" href="/">Copy</Link>
@@ -180,7 +186,7 @@
                   <p>Yeah everything is fine</p>
 
                   <p class="chat-time mb-0">
-                    <i class="bx bx-time-five align-middle me-1" /> 10:06
+                    <i class="bx bx-time-five align-middle me-1"></i> 10:06
                   </p>
                 </div>
               </div>
@@ -197,7 +203,7 @@
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
-                    <i class="bx bx-dots-vertical-rounded" />
+                    <i class="bx bx-dots-vertical-rounded"></i>
                   </Link>
                   <div class="dropdown-menu">
                     <Link class="dropdown-item" href="/">Copy</Link>
@@ -210,7 +216,7 @@
                   <div class="conversation-name">Steven Franklin</div>
                   <p>& Next meeting tomorrow 10.00AM</p>
                   <p class="chat-time mb-0">
-                    <i class="bx bx-time-five align-middle me-1" /> 10:06
+                    <i class="bx bx-time-five align-middle me-1"></i> 10:06
                   </p>
                 </div>
               </div>
@@ -227,7 +233,7 @@
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
-                    <i class="bx bx-dots-vertical-rounded" />
+                    <i class="bx bx-dots-vertical-rounded"></i>
                   </Link>
                   <div class="dropdown-menu">
                     <Link class="dropdown-item" href="/">Copy</Link>
@@ -241,7 +247,7 @@
                   <p>Wow that's great</p>
 
                   <p class="chat-time mb-0">
-                    <i class="bx bx-time-five align-middle me-1" /> 10:07
+                    <i class="bx bx-time-five align-middle me-1"></i> 10:07
                   </p>
                 </div>
               </div>
@@ -264,10 +270,8 @@
               <ul class="list-inline mb-0">
                 <li class="list-inline-item">
                   <Link to="#">
-                    <i
-                      class="mdi mdi-emoticon-happy-outline"
-                      id="Emojitooltip"
-                    />
+                    <i class="mdi mdi-emoticon-happy-outline" id="Emojitooltip"
+                    ></i>
                     <Tooltip placement="top" target="Emojitooltip">
                       Emojis
                     </Tooltip>
@@ -276,7 +280,7 @@
                 {" "}
                 <li class="list-inline-item">
                   <Link to="#">
-                    <i class="mdi mdi-file-image-outline" id="Imagetooltip" />
+                    <i class="mdi mdi-file-image-outline" id="Imagetooltip"></i>
                     <Tooltip placement="top" target="Imagetooltip">
                       Images
                     </Tooltip>
@@ -285,7 +289,8 @@
                 {" "}
                 <li class="list-inline-item">
                   <Link to="#">
-                    <i class="mdi mdi-file-document-outline" id="Filetooltip" />
+                    <i class="mdi mdi-file-document-outline" id="Filetooltip"
+                    ></i>
                     <Tooltip placement="top" target="Filetooltip">
                       Add Files
                     </Tooltip>
@@ -298,7 +303,7 @@
         <div class="col-auto">
           <Button type="submit" color="primary" class="chat-send w-md">
             <span class="d-none d-sm-inline-block me-2">Send</span>{" "}
-            <i class="mdi mdi-send" />
+            <i class="mdi mdi-send"></i>
           </Button>
         </div>
       </Row>

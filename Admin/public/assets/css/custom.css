@@ -1744,122 +1744,124 @@ section.svelte-195bjyp {
   }
 }
 
-/*# sourceMappingURL=app.min.css.map */
+/*# sourceMappingURL=app-dark.min.css.map */
 
-.dropdown.d-inline-flex{
+.dropdown.d-inline-flex {
   display: unset !important;
 }
-.svelte-g1srw1{
+.svelte-g1srw1 {
   display: inline-block !important;
   margin-bottom: 0px !important;
 }
-.selectContainer.svelte-17l1npl input.svelte-17l1npl,.selectContainer.svelte-17l1npl.svelte-17l1npl{
+.selectContainer.svelte-17l1npl input.svelte-17l1npl,
+.selectContainer.svelte-17l1npl.svelte-17l1npl {
   height: var(--height, 36px);
   line-height: var(--height, 36px);
 }
 
-.multiSelectItem{
+.multiSelectItem {
   margin: 1px !important;
   font-size: 13px !important;
 }
 
 .clearSelect.svelte-17l1npl.svelte-17l1npl {
-  top:0px;
+  top: 0px;
   width: 12px;
 }
-section.svelte-1sonwgi.svelte-1sonwgi{
+section.svelte-1sonwgi.svelte-1sonwgi {
   padding: 0px;
 }
-.sc-carousel__pages-container .item{
-    height: unset;
-    line-height: unset;
-    padding: unset;
-    white-space: unset;
+.sc-carousel__pages-container .item {
+  height: unset;
+  line-height: unset;
+  padding: unset;
+  white-space: unset;
 }
-.hori-timeline .sc-carousel__pages-container .item{
+.hori-timeline .sc-carousel__pages-container .item {
   text-align: center;
   display: block;
 }
-.hori-timeline .item.active{
+.hori-timeline .item.active {
   background: unset;
   color: unset;
 }
-.sc-carousel__pages-container .item img{
+.sc-carousel__pages-container .item img {
   display: block;
   width: 100%;
 }
 .tab-content .nav-tabs {
   display: none;
 }
-.hori-timeline .events .event-list{
-    height: unset;
-    line-height: unset;
-    white-space: unset;
+.hori-timeline .events .event-list {
+  height: unset;
+  line-height: unset;
+  white-space: unset;
 }
-@media (min-width: 576px){
+@media (min-width: 576px) {
   .card-columns {
-      -webkit-column-count: 3;
-      column-count: 3;
-      grid-column-gap: 1.25rem;
-      -webkit-column-gap: 1.25rem;
-      column-gap: 1.25rem;
-      orphans: 1;
-      widows: 1;
+    -webkit-column-count: 3;
+    column-count: 3;
+    grid-column-gap: 1.25rem;
+    -webkit-column-gap: 1.25rem;
+    column-gap: 1.25rem;
+    orphans: 1;
+    widows: 1;
   }
 }
-.dt-search{
+.dt-search {
   margin: 10px !important;
 }
-section.svelte-195bjyp{
+section.svelte-195bjyp {
   height: unset;
 }
 
 .rangeSlider {
   color: red;
-  background-color: #f6f6f6 !important
+  background-color: #f6f6f6 !important;
 }
 
-.rangeSlider .rangeNub ,.rangeSlider .rangeBar{
+.rangeSlider .rangeNub,
+.rangeSlider .rangeBar {
   background-color: #556ee6 !important;
 }
 
-.sc-carousel__arrow-container.svelte-h7bw08{
+.sc-carousel__arrow-container.svelte-h7bw08 {
   padding: 0;
 }
 
-.sc-carousel-arrow__circle.svelte-9ztt4p{
+.sc-carousel-arrow__circle.svelte-9ztt4p {
   width: auto;
   height: auto;
   position: absolute;
   background-color: transparent;
 }
 
-.sc-carousel-arrow__arrow.svelte-9ztt4p{
+.sc-carousel-arrow__arrow.svelte-9ztt4p {
   width: 24px;
   height: 24px;
   z-index: 1;
   border-color: #fff;
 }
 
-.sc-carousel-arrow__circle.svelte-9ztt4p:hover{
+.sc-carousel-arrow__circle.svelte-9ztt4p:hover {
   opacity: 1;
 }
 
-.sc-carousel-arrow__arrow-prev.svelte-9ztt4p{
+.sc-carousel-arrow__arrow-prev.svelte-9ztt4p {
   position: absolute;
   left: 30px;
 }
 
-.sc-carousel-arrow__arrow-next.svelte-9ztt4p{
+.sc-carousel-arrow__arrow-next.svelte-9ztt4p {
   position: absolute;
   left: auto;
   right: 30px;
 }
 
-.sc-carousel__pages-container .item{
+.sc-carousel__pages-container .item {
   position: relative;
 }
-.sc-carousel-dots__dot-container.svelte-1oj5bge{
+.sc-carousel-dots__dot-container.svelte-1oj5bge {
   width: 30px;
   height: 3px;
 }
@@ -1881,7 +1883,7 @@ section.svelte-195bjyp{
   margin-left: 15%;
   list-style: none;
 }
-.sc-carousel-dot__dot.svelte-1uelw0b{
+.sc-carousel-dot__dot.svelte-1uelw0b {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
   -webkit-box-flex: 0;
@@ -1899,11 +1901,11 @@ section.svelte-195bjyp{
   border: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  opacity: .5;
-  -webkit-transition: opacity .6s ease;
-  transition: opacity .6s ease;
+  opacity: 0.5;
+  -webkit-transition: opacity 0.6s ease;
+  transition: opacity 0.6s ease;
   border-radius: unset;
 }
-.sc-carousel-progress__container.svelte-h7bw08{
+.sc-carousel-progress__container.svelte-h7bw08 {
   background-color: #ced4da;
 }
