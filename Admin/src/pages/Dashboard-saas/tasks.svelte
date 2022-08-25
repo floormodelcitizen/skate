@@ -12,8 +12,8 @@
     Table,
   } from "sveltestrap";
 
-  import SimpleBar from "@jbfulgencio/svelte-simplebar";
-
+  import SimpleBar from "@woden/svelte-simplebar";
+  
   let activeTab = "1";
 </script>
 
@@ -24,18 +24,12 @@
 
       <Nav pills class="bg-light rounded">
         <NavItem>
-          <NavLink
-            on:click="{() => (activeTab = '1')}"
-            active="{activeTab == '1'}"
-          >
+          <NavLink on:click={() => (activeTab = "1")} active={activeTab == "1"}>
             In Process
           </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink
-            on:click="{() => (activeTab = '2')}"
-            active="{activeTab == '2'}"
-          >
+          <NavLink on:click={() => (activeTab = "2")} active={activeTab == "2"}>
             Upcoming
           </NavLink>
         </NavItem>
@@ -71,13 +65,13 @@
                       <ul class="list-inline mb-0 font-size-16">
                         <li class="list-inline-item">
                           <Link to="#" class="text-success p-1">
-                            <i class="bx bxs-edit-alt"></i>
+                            <i class="bx bxs-edit-alt" />
                           </Link>
                         </li>
                         {" "}
                         <li class="list-inline-item">
                           <Link to="#" class="text-danger p-1">
-                            <i class="bx bxs-trash"></i>
+                            <i class="bx bxs-trash" />
                           </Link>
                         </li>
                       </ul>
@@ -110,13 +104,13 @@
                       <ul class="list-inline mb-0 font-size-16">
                         <li class="list-inline-item">
                           <Link to="#" class="text-success p-1">
-                            <i class="bx bxs-edit-alt"></i>
+                            <i class="bx bxs-edit-alt" />
                           </Link>
                         </li>
                         {" "}
                         <li class="list-inline-item">
                           <Link to="#" class="text-danger p-1">
-                            <i class="bx bxs-trash"></i>
+                            <i class="bx bxs-trash" />
                           </Link>
                         </li>
                       </ul>
@@ -149,13 +143,13 @@
                       <ul class="list-inline mb-0 font-size-16">
                         <li class="list-inline-item">
                           <Link to="#" class="text-success p-1">
-                            <i class="bx bxs-edit-alt"></i>
+                            <i class="bx bxs-edit-alt" />
                           </Link>
                         </li>
                         {" "}
                         <li class="list-inline-item">
                           <Link to="#" class="text-danger p-1">
-                            <i class="bx bxs-trash"></i>
+                            <i class="bx bxs-trash" />
                           </Link>
                         </li>
                       </ul>
@@ -188,13 +182,13 @@
                       <ul class="list-inline mb-0 font-size-16">
                         <li class="list-inline-item">
                           <Link to="#" class="text-success p-1">
-                            <i class="bx bxs-edit-alt"></i>
+                            <i class="bx bxs-edit-alt" />
                           </Link>
                         </li>
                         {" "}
                         <li class="list-inline-item">
                           <Link to="#" class="text-danger p-1">
-                            <i class="bx bxs-trash"></i>
+                            <i class="bx bxs-trash" />
                           </Link>
                         </li>
                       </ul>
@@ -227,13 +221,13 @@
                       <ul class="list-inline mb-0 font-size-16">
                         <li class="list-inline-item">
                           <Link to="#" class="text-success p-1">
-                            <i class="bx bxs-edit-alt"></i>
+                            <i class="bx bxs-edit-alt" />
                           </Link>
                         </li>
                         {" "}
                         <li class="list-inline-item">
                           <Link to="#" class="text-danger p-1">
-                            <i class="bx bxs-trash"></i>
+                            <i class="bx bxs-trash" />
                           </Link>
                         </li>
                       </ul>
@@ -267,13 +261,13 @@
                       <ul class="list-inline mb-0 font-size-16">
                         <li class="list-inline-item">
                           <Link to="#" class="text-success p-1">
-                            <i class="bx bxs-edit-alt"></i>
+                            <i class="bx bxs-edit-alt" />
                           </Link>
                         </li>
                         {" "}
                         <li class="list-inline-item">
                           <Link to="#" class="text-danger p-1">
-                            <i class="bx bxs-trash"></i>
+                            <i class="bx bxs-trash" />
                           </Link>
                         </li>
                       </ul>
@@ -307,13 +301,13 @@
                       <ul class="list-inline mb-0 font-size-16">
                         <li class="list-inline-item">
                           <Link to="#" class="text-success p-1">
-                            <i class="bx bxs-edit-alt"></i>
+                            <i class="bx bxs-edit-alt" />
                           </Link>
                         </li>
                         {" "}
                         <li class="list-inline-item">
                           <Link to="#" class="text-danger p-1">
-                            <i class="bx bxs-trash"></i>
+                            <i class="bx bxs-trash" />
                           </Link>
                         </li>
                       </ul>

@@ -68,13 +68,14 @@
     },
     colors: ["#556ee6"],
   };
-
+  
   if (localStorage.getItem("authUser")) {
     const obj = JSON.parse(localStorage.getItem("authUser"));
-    let emailid = obj.email;
-  } else {
-    let emailid = "admin@themesbrand.com";
+    var emailid = obj.email;
+  }else{
+    var emailid = 'admin@themesbrand.com';
   }
+
 </script>
 
 <div class="page-content">
@@ -115,7 +116,7 @@
                 <p class="text-muted mb-0 text-truncate">UI/UX Designer</p>
               </Col>
 
-              <Col sm="{8}">
+              <Col sm={8}>
                 <div class="pt-4">
                   <Row>
                     <Col xs="6">
@@ -130,7 +131,7 @@
                   <div class="mt-4">
                     <Link to="" class="btn btn-primary btn-sm">
                       View Profile{" "}
-                      <i class="mdi mdi-arrow-right ms-1"></i>
+                      <i class="mdi mdi-arrow-right ms-1" />
                     </Link>
                   </div>
                 </div>
@@ -183,16 +184,16 @@
               <ul class="verti-timeline list-unstyled">
                 <li class="event-list active">
                   <div class="event-timeline-dot">
-                    <i class="bx bx-right-arrow-circle bx-fade-right"></i>
+                    <i class="bx bx-right-arrow-circle bx-fade-right" />
                   </div>
                   <div class="d-flex">
                     <div class="flex-shrink-0 me-3">
-                      <i class="bx bx-server h4 text-primary"></i>
+                      <i class="bx bx-server h4 text-primary" />
                     </div>
                     <div class="flex-grow-1">
                       <div>
                         <h5 class="font-size-15">
-                          <Link to="{'/#'}" class="text-dark"
+                          <Link to={"/#"} class="text-dark"
                             >Back end Developer</Link
                           >
                         </h5>
@@ -203,16 +204,16 @@
                 </li>
                 <li class="event-list">
                   <div class="event-timeline-dot">
-                    <i class="bx bx-right-arrow-circle"></i>
+                    <i class="bx bx-right-arrow-circle" />
                   </div>
                   <div class="d-flex">
                     <div class="flex-shrink-0 me-3">
-                      <i class="bx bx-code h4 text-primary"></i>
+                      <i class="bx bx-code h4 text-primary" />
                     </div>
                     <div class="flex-grow-1">
                       <div>
                         <h5 class="font-size-15">
-                          <Link to="{'/#'}" class="text-dark"
+                          <Link to={"/#"} class="text-dark"
                             >Front end Developer</Link
                           >
                         </h5>
@@ -223,16 +224,16 @@
                 </li>
                 <li class="event-list">
                   <div class="event-timeline-dot">
-                    <i class="bx bx-right-arrow-circle"></i>
+                    <i class="bx bx-right-arrow-circle" />
                   </div>
                   <div class="d-flex">
                     <div class="flex-shrink-0 me-3">
-                      <i class="bx bx-edit h4 text-primary"></i>
+                      <i class="bx bx-edit h4 text-primary" />
                     </div>
                     <div class="flex-grow-1">
                       <div>
                         <h5 class="font-size-15">
-                          <Link to="{'/#'}" class="text-dark"
+                          <Link to={"/#"} class="text-dark"
                             >UI /UX Designer</Link
                           >
                         </h5>
@@ -249,7 +250,7 @@
 
       <Col xl="8">
         <Row>
-          <Col md="{4}">
+          <Col md={4}>
             <Card class="mini-stats-wid">
               <CardBody>
                 <div class="d-flex">
@@ -263,7 +264,7 @@
                       class="mini-stat-icon avatar-sm rounded-circle bg-primary"
                     >
                       <span class="avatar-title">
-                        <i class="bx bx-check-circle font-size-24"></i>
+                        <i class="bx bx-check-circle font-size-24" />
                       </span>
                     </div>
                   </div>
@@ -271,7 +272,7 @@
               </CardBody>
             </Card>
           </Col>
-          <Col md="{4}">
+          <Col md={4}>
             <Card class="mini-stats-wid">
               <CardBody>
                 <div class="d-flex">
@@ -285,7 +286,7 @@
                       class="avatar-sm mini-stat-icon rounded-circle bg-primary"
                     >
                       <span class="avatar-title">
-                        <i class="bx bx-hourglass font-size-24"></i>
+                        <i class="bx bx-hourglass font-size-24" />
                       </span>
                     </div>
                   </div>
@@ -293,7 +294,7 @@
               </CardBody>
             </Card>
           </Col>
-          <Col md="{4}">
+          <Col md={4}>
             <Card class="mini-stats-wid">
               <CardBody>
                 <div class="d-flex">
@@ -307,7 +308,7 @@
                       class="avatar-sm mini-stat-icon rounded-circle bg-primary"
                     >
                       <span class="avatar-title">
-                        <i class="bx bx-package font-size-24"></i>
+                        <i class="bx bx-package font-size-24" />
                       </span>
                     </div>
                   </div>
@@ -319,11 +320,7 @@
         <Card>
           <CardBody>
             <CardTitle class="mb-4 h4">Revenue</CardTitle>
-            <div
-              use:chart="{options}"
-              id="revenue-chart"
-              class="apex-charts"
-            ></div>
+            <div use:chart={options} id="revenue-chart" class="apex-charts" />
           </CardBody>
         </Card>
         <Card>

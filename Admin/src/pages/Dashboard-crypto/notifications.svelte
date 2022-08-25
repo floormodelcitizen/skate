@@ -1,6 +1,6 @@
 <script>
   import { Col, Card, CardBody } from "sveltestrap";
-  import SimpleBar from "@jbfulgencio/svelte-simplebar";
+  import SimpleBar from "@woden/svelte-simplebar";
 </script>
 
 <Col xl="4">
@@ -31,7 +31,7 @@
 
                 <div class="float-end">
                   <p class="text-muted mb-0">
-                    <i class="mdi mdi-account me-1"></i> Joseph
+                    <i class="mdi mdi-account me-1" /> Joseph
                   </p>
                 </div>
                 <p class="text-muted mb-0">12 Mar, 2020</p>
@@ -60,7 +60,7 @@
 
                 <div class="float-end">
                   <p class="text-muted mb-0">
-                    <i class="mdi mdi-account me-1"></i> Jerry
+                    <i class="mdi mdi-account me-1" /> Jerry
                   </p>
                 </div>
                 <p class="text-muted mb-0">13 Mar, 2020</p>
@@ -89,7 +89,7 @@
 
                 <div class="float-end">
                   <p class="text-muted mb-0">
-                    <i class="mdi mdi-account me-1"></i> Calvin
+                    <i class="mdi mdi-account me-1" /> Calvin
                   </p>
                 </div>
                 <p class="text-muted mb-0">14 Mar, 2020</p>
@@ -118,7 +118,7 @@
 
                 <div class="float-end">
                   <p class="text-muted mb-0">
-                    <i class="mdi mdi-account me-1"></i> Joseph
+                    <i class="mdi mdi-account me-1" /> Joseph
                   </p>
                 </div>
                 <p class="text-muted mb-0">12 Mar, 2020</p>

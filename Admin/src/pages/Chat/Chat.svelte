@@ -18,7 +18,7 @@
   } from "sveltestrap";
   import { Link } from "svelte-routing";
 
-  import SimpleBar from "@jbfulgencio/svelte-simplebar";
+  import SimpleBar from "@woden/svelte-simplebar";
 
   let isOpen = false;
 
@@ -34,15 +34,13 @@
 <div class="page-content">
   <Container fluid>
     <Row>
-      <Col xs="{12}">
-        <div
-          class="page-title-box d-sm-flex align-items-center justify-content-between"
-        >
+      <Col xs={12}>
+        <div class="page-title-box d-sm-flex align-items-center justify-content-between">
           <h4 class="mb-sm-0 font-size-18">Chat</h4>
 
           <div class="page-title-right">
             <ol class="breadcrumb m-0">
-              <li class="breadcrumb-item"><Link to="{'#'}">Apps</Link></li>
+              <li class="breadcrumb-item"><Link to={"#"}>Apps</Link></li>
               <li class="breadcrumb-item active">Chat</li>
             </ol>
           </div>
@@ -64,18 +62,21 @@
               <div class="flex-grow-1">
                 <h5 class="font-size-15 mb-1">Henry Wells</h5>
                 <p class="text-muted mb-0">
-                  <i class="mdi mdi-circle text-success align-middle me-1"></i> Active
+                  <i class="mdi mdi-circle text-success align-middle me-1" /> Active
                 </p>
               </div>
 
               <div>
                 <Dropdown
                   class="chat-noti-dropdown active"
-                  isOpen="{isOpen}"
-                  toggle="{() => (isOpen = !isOpen)}"
+                  {isOpen}
+                  toggle={() => (isOpen = !isOpen)}
                 >
-                  <DropdownToggle tag="button" color="">
-                    <i class="bx bx-bell bx-tada"></i>
+                  <DropdownToggle
+                    tag="button"
+                    color=""
+                  >
+                    <i class="bx bx-bell bx-tada" />
                   </DropdownToggle>
                   <DropdownMenu class="dropdown-menu-end">
                     <DropdownItem>View Profile</DropdownItem>
@@ -92,7 +93,7 @@
         <div class="search-box chat-search-box py-4">
           <div class="position-relative">
             <input type="text" class="form-control" placeholder="Search..." />
-            <i class="bx bx-search-alt search-icon"></i>
+            <i class="bx bx-search-alt search-icon" />
           </div>
         </div>
 
@@ -100,34 +101,34 @@
           <ul class="nav nav-pills nav-justified">
             <NavItem>
               <NavLink
-                on:click="{() => (activeTab = '1')}"
-                active="{activeTab == '1'}"
+                on:click={() => (activeTab = "1")}
+                active={activeTab == "1"}
               >
-                <i class="bx bx-chat font-size-20 d-sm-none"></i>
+                <i class="bx bx-chat font-size-20 d-sm-none" />
                 <span class="d-none d-sm-block">Chat</span>
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink
-                on:click="{() => (activeTab = '2')}"
-                active="{activeTab == '2'}"
+                on:click={() => (activeTab = "2")}
+                active={activeTab == "2"}
               >
-                <i class="bx bx-group font-size-20 d-sm-none"></i>
+                <i class="bx bx-group font-size-20 d-sm-none" />
                 <span class="d-none d-sm-block">Groups</span>
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink
-                on:click="{() => (activeTab = '3')}"
-                active="{activeTab == '3'}"
+                on:click={() => (activeTab = "3")}
+                active={activeTab == "3"}
               >
-                <i class="bx bx-book-content font-size-20 d-sm-none"></i>
+                <i class="bx bx-book-content font-size-20 d-sm-none" />
                 <span class="d-none d-sm-block">Contacts</span>
               </NavLink>
             </NavItem>
           </ul>
-          <TabContent activeTab="{activeTab}" class="py-4">
-            <TabPane tabId="1" class="{activeTab == 1 ? 'active' : ''}">
+          <TabContent {activeTab} class="py-4">
+            <TabPane tabId="1" class="{activeTab == 1 ? 'active': ''}">
               <div>
                 <h5 class="font-size-14 mb-3">Recent</h5>
                 <ul
@@ -137,18 +138,18 @@
                 >
                   {#each data.chats as chat (chat.id)}
                     <li
-                      class="{current === chat.id ? 'active' : ''}"
-                      on:click="{() => (current = chat.id)}"
+                      class={current === chat.id ? "active" : ""}
+                      on:click={() => (current = chat.id)}
                     >
-                      <a href="{'#'}">
+                      <a href={"#"}>
                         <div class="d-flex align-items-start">
                           <div class="flex-shrink-0 align-self-center me-3">
-                            <i class="mdi mdi-circle font-size-10"></i>
+                            <i class="mdi mdi-circle font-size-10" />
                           </div>
                           <div class="flex-shrink-0 align-self-center me-3">
                             {#if chat.image !== "Null"}
                               <img
-                                src="{chat.image}"
+                                src={chat.image}
                                 class="rounded-circle avatar-xs"
                                 alt="avatar"
                               />
@@ -164,7 +165,7 @@
                               </div>
                             {/if}
 
-                            <span class="user-status"></span>
+                            <span class="user-status" />
                           </div>
 
                           <div class="flex-grow-1 overflow-hidden">
@@ -193,7 +194,7 @@
                 </ul>
               </div>
             </TabPane>
-            <TabPane tabId="2" class="{activeTab == 2 ? 'active' : ''}">
+            <TabPane tabId="2" class="{activeTab == 2 ? 'active': ''}">
               <h5 class="font-size-14 mb-3">Groups</h5>
               <ul
                 class="list-unstyled chat-list"
@@ -301,7 +302,7 @@
                 </li>
               </ul>
             </TabPane>
-            <TabPane tabId="3" class="{activeTab == 3 ? 'active' : ''}">
+            <TabPane tabId="3" class="{activeTab == 3 ? 'active': ''}">
               <div class="tab-pane" id="contacts">
                 <h5 class="font-size-14 mb-3">Contacts</h5>
 
@@ -403,7 +404,7 @@
               <div class="col-md-4 col-9">
                 <h5 class="font-size-15 mb-1">Steven Franklin</h5>
                 <p class="text-muted mb-0">
-                  <i class="mdi mdi-circle text-success align-middle me-1"></i> Active
+                  <i class="mdi mdi-circle text-success align-middle me-1" /> Active
                   now
                 </p>
               </div>
@@ -412,17 +413,12 @@
                 <ul class="list-inline user-chat-nav text-end mb-0">
                   <li class="list-inline-item d-none d-sm-inline-block">
                     <Dropdown>
-                      <DropdownToggle
-                        class="nav-btn dropdown-toggle"
-                        tag="button"
-                        color=""
-                      >
-                        <i class="bx bx-search-alt-2"></i>
+                      <DropdownToggle class="nav-btn dropdown-toggle" tag="button" color="">
+                        <i class="bx bx-search-alt-2" />
                       </DropdownToggle>
 
                       <DropdownMenu
-                        class="dropdown-menu dropdown-menu-end dropdown-menu-md"
-                      >
+                        class="dropdown-menu dropdown-menu-end dropdown-menu-md">
                         <Form class="p-3">
                           <div class="form-group m-0">
                             <div class="input-group">
@@ -434,7 +430,7 @@
                               />
 
                               <button class="btn btn-primary" type="submit"
-                                ><i class="mdi mdi-magnify"></i></button
+                                ><i class="mdi mdi-magnify" /></button
                               >
                             </div>
                           </div>
@@ -445,12 +441,8 @@
 
                   <li class="list-inline-item d-none d-sm-inline-block">
                     <Dropdown>
-                      <DropdownToggle
-                        tag="button"
-                        class="nav-btn dropdown-toggle"
-                        color=""
-                      >
-                        <i class="bx bx-cog"></i>
+                      <DropdownToggle tag="button" class="nav-btn dropdown-toggle" color="">
+                        <i class="bx bx-cog" />
                       </DropdownToggle>
                       <DropdownMenu class="dropdown-menu-end">
                         <DropdownItem>View Profile</DropdownItem>
@@ -462,12 +454,8 @@
                   </li>
                   <li class="list-inline-item">
                     <Dropdown>
-                      <DropdownToggle
-                        tag="button"
-                        class="nav-btn dropdown-toggle"
-                        color=""
-                      >
-                        <i class="bx bx-dots-horizontal-rounded"></i>
+                      <DropdownToggle tag="button" class="nav-btn dropdown-toggle" color="">
+                        <i class="bx bx-dots-horizontal-rounded" />
                       </DropdownToggle>
                       <DropdownMenu class="dropdown-menu-end">
                         <DropdownItem>Action</DropdownItem>
@@ -495,17 +483,13 @@
                 </li>
                 {#each data.messages as message}
                   <li
-                    key="{'test_k' + message.id}"
-                    class="{message.sender === currentUser.name ? 'right' : ''}"
+                    key={"test_k" + message.id}
+                    class={message.sender === currentUser.name ? "right" : ""}
                   >
                     <div class="conversation-list">
                       <Dropdown>
-                        <DropdownToggle
-                          class="dropdown-toggle"
-                          tag="span"
-                          color=""
-                        >
-                          <i class="bx bx-dots-vertical-rounded"></i>
+                        <DropdownToggle class="dropdown-toggle" tag="span" color="">
+                          <i class="bx bx-dots-vertical-rounded" />
                         </DropdownToggle>
                         <DropdownMenu class="dropdown-menu-end">
                           <DropdownItem href="#">Copy</DropdownItem>
@@ -519,7 +503,7 @@
                         <div class="conversation-name">{message.sender}</div>
                         <p>{message.message}</p>
                         <p class="chat-time mb-0">
-                          <i class="bx bx-time-five align-middle me-1"></i>
+                          <i class="bx bx-time-five align-middle me-1" />
                           {message.createdAt}
                         </p>
                       </div>
@@ -532,44 +516,23 @@
 
           <div class="p-3 chat-input-section">
             <div class="row">
-              <div class="col">
-                <div class="position-relative">
-                  <input
-                    type="text"
-                    class="form-control chat-input"
-                    placeholder="Enter Message..."
-                  />
-                  <div class="chat-input-links" id="tooltip-container">
-                    <ul class="list-inline mb-0">
-                      <li class="list-inline-item">
-                        <a href="/" title="Emoji"
-                          ><i class="mdi mdi-emoticon-happy-outline"></i></a
-                        >
-                      </li>
-                      <li class="list-inline-item">
-                        <a href="/" title="Images"
-                          ><i class="mdi mdi-file-image-outline"></i></a
-                        >
-                      </li>
-                      <li class="list-inline-item">
-                        <a href="/" title="Add Files"
-                          ><i class="mdi mdi-file-document-outline"></i></a
-                        >
-                      </li>
-                    </ul>
-                  </div>
+                <div class="col">
+                    <div class="position-relative">
+                        <input type="text" class="form-control chat-input" placeholder="Enter Message...">
+                        <div class="chat-input-links" id="tooltip-container">
+                            <ul class="list-inline mb-0">
+                                <li class="list-inline-item"><a href="/" title="Emoji"><i class="mdi mdi-emoticon-happy-outline"></i></a></li>
+                                <li class="list-inline-item"><a href="/" title="Images"><i class="mdi mdi-file-image-outline"></i></a></li>
+                                <li class="list-inline-item"><a href="/" title="Add Files"><i class="mdi mdi-file-document-outline"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="col-auto">
-                <button
-                  type="submit"
-                  class="btn btn-primary btn-rounded chat-send w-md waves-effect waves-light"
-                  ><span class="d-none d-sm-inline-block me-2">Send</span>
-                  <i class="mdi mdi-send"></i></button
-                >
-              </div>
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-primary btn-rounded chat-send w-md waves-effect waves-light"><span class="d-none d-sm-inline-block me-2">Send</span> <i class="mdi mdi-send"></i></button>
+                </div>
             </div>
-          </div>
+        </div>
         </div>
       </div>
     </div>
